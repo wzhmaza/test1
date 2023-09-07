@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="tests">
+    <test name="Test-Smith Webshop Tests">
+
+        <parameter name="browserName" value="chrome"/>
+
+        <classes>
+            <class name="gui.Tests.CartTest"/>
+            <class name="gui.Tests.LoginPageTest"/>
+        </classes>
+    </test> <!-- Parallel Test -->
+    <listeners>
+    </listeners>
+</suite> <!-- Default Suite -->

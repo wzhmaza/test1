@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://artifacts.rbi.tech/artifactory/plugins-gradle-org-maven-proxy/'
+        }
+    }
+}
+
+rootProject.name = 'ttag-selenium4-testNG-demo'
